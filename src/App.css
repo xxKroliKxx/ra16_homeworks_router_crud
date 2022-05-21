@@ -1,0 +1,139 @@
+#root {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #e7eaed;
+
+    overflow-x: scroll;
+}
+
+body {
+    font-family: 'Share';
+    font-size: 18px;
+    font-weight: 540;
+    color: rgba(36, 41, 47, 0.9);
+}
+
+.button {
+
+    font-family: BlinkMacSystemFont, Roboto, "Open Sans";
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: #546ea8;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 0.4em 1em;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 1em;
+    background-color: #ffffff;
+    padding: 1em 2em;
+    width: 85%;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-post {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create-post, .post {
+    border-radius: 0.2em;
+    margin-top: 1em;
+    background-color: #ffffff;
+    padding: 1em 2em;
+    width: 85%;
+}
+
+.post_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.author_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    color: #546ea8;
+}
+
+.comment, .like, .role {
+    margin-top: 5px;
+    font-family: BlinkMacSystemFont, Roboto, "Open Sans";
+    font-size: 0.8em;
+    font-weight: 550;
+    color: rgba(87, 96, 106, 0.8);
+}
+
+.full_name {
+    font-family: BlinkMacSystemFont, Roboto, "Open Sans";
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+}
+
+.post_body, .textarea {
+    margin-top: 10px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: -apple-system, "system-ui", Roboto, "Open Sans", "Helvetica Neue";
+}
+
+.bottom {
+    border-top: 1px solid rgba(87, 96, 106, 0.5);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textarea {
+    padding: 1em 0.5em;
+
+    min-width: 95%;
+
+    border: 1px solid rgba(87, 96, 106, 0.5);
+    border-radius: 5px;
+    resize: none;
+}
+
+.post-bottom {
+    border-top: 1px solid rgba(87, 96, 106, 0.5);
+    margin-top: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.create-button {
+    margin-top: 1em;
+}
+.delete-button{
+    margin-left: 1em;
+    background-color: red;
+}
